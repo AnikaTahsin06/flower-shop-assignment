@@ -29,9 +29,12 @@ body {
 .section-description {
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
+  font-family: Lato;
   font-size: 18px;
-  font-weight: 300;
-  padding: 10px 500px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 22px 591px;
+  line-height: 30px;
 }
 
 main section {
@@ -103,7 +106,34 @@ main section {
   background-image: url(../Images/Rectangle\ 9.png);
   width: 1440px;
   height: 449px;
-  margin: 30px auto;
+  margin: 30px auto 140px auto;
+}
+/* .latest-deals {
+  margin: 0 auto;
+} */
+.enter-email {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.enter-email input {
+  width: 640px;
+  height: 64px;
+  border: none;
+  padding-left: 30px;
+  margin-right: 15px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.enter-email input::placeholder {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 footer {
