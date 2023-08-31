@@ -53,14 +53,12 @@ main section {
 
 .header-title {
   color: #272727;
-  font-family: Lato;
   font-size: 80px;
   font-weight: 800;
 }
 
 .header-description {
   color: rgba(39, 39, 39, 0.6);
-  font-family: Lato;
   font-size: 18px;
   font-weight: 400;
   width: 636px;
@@ -109,13 +107,34 @@ main section {
 }
 
 footer {
-  background-color: black;
-  padding: 100px 0px;
+  background: #111010;
+  padding: 120px 0px;
 }
 
 .flower {
   color: #e55473;
+  font-size: 48px;
+  font-weight: 800;
 }
 .shop {
-  color: white;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-family: Lato;
+  font-weight: 400;
+  padding: 22px 591px;
+  line-height: 30px;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
 }
