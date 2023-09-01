@@ -44,29 +44,30 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
 }
 
 .header-content {
   max-width: 708px;
+  padding-left: 100px;
 }
 
 .header-title {
   color: #272727;
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 800;
 }
 
 .header-description {
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
+  font-family: Lato;
   font-weight: 400;
   width: 636px;
   padding: 32px 0 32px 0;
 }
 
 .header .flower-pic {
-  width: 650px;
+  width: 37%;
   padding-top: 50px;
 }
 
@@ -74,7 +75,7 @@ body {
   margin-top: 100px;
 }
 
-.shop {
+.displaying {
   display: flex;
   justify-content: center;
   gap: 35px;
@@ -106,32 +107,22 @@ body {
   margin-top: 140px;
 }
 
-.flower-tree-sides {
+.featured-sides {
+  border-radius: 300px 300px 0px 0px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
   padding: 55px 40px 0 40px;
-  width: 35%;
-  border-top-left-radius: 100%;
-  border-top-right-radius: 100%;
-  background-color: pink;
-}
-.flower-tree-middle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 40px 0 40px;
-  width: 35%;
-  border-top-left-radius: 100%;
-  border-top-right-radius: 100%;
-  background-color: pink;
 }
 
-.flower-tree-sides img {
-  width: 90%;
+.featured-left {
+  background: rgba(167, 33, 98, 0.15);
 }
-.flower-tree-middle img {
-  width: 90%;
+.featured-middle {
+  background: rgba(5, 151, 160, 0.15);
+}
+.featured-right {
+  background: rgba(167, 33, 98, 0.15);
 }
 
 .caption {
@@ -257,7 +248,7 @@ footer {
   font-size: 48px;
   font-weight: 800;
 }
-.shop {
+.shop-text {
   color: #fff;
   font-size: 48px;
   font-weight: 800;
